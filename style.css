@@ -95,11 +95,6 @@ footer {
   margin: 20px;
 }
 
-main {
-  width: 940px;
-  margin: 0 auto;
-}
-
 form {
   margin: 40px 0;
 }
@@ -162,15 +157,18 @@ td {
   width: 100%;
 }
 
+.principal {
+  padding: 3em 0;
+  background: #fefefe;
+  width: 940px;
+  margin: 0 auto;
+}
+
 .titulo-principal {
   text-align: center;
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
-}
-
-.principal {
-  margin: 0 0 1em;
 }
 
 .principal strong {
@@ -186,6 +184,7 @@ td {
 
 .mapa {
   padding: 3em 0;
+  background: linear-gradient(#fefefe, #888888);
 }
 
 .mapa p {
@@ -193,10 +192,43 @@ td {
   text-align: center;
 }
 
+.mapa-contenido {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.diferenciales {
+  padding: 3em 0;
+  background: #888888;
+  padding-bottom: 6em;
+}
+
+.contenidos-diferenciales {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.listas-diferenciales {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.items {
+  line-height: 1.5;
+}
+
+.items:first-child {
+  font-weight: bold;
+}
+
 .img-diferenciales {
   width: 60%;
+  float: right;
+  margin-bottom: 3em;
 }
- .video{
+
+.video {
   width: 560px;
   margin: 1em auto;
- }
+}
